@@ -14,7 +14,7 @@ const App = (props => {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About Us</Link></li>
                 <li><Link to="/instruments">Product Range</Link></li>
-                <li><Link to="/cart">Basket</Link></li>
+                <li><Link to="/basket">Basket</Link></li>
               </ul>
             </div>
           </div>
