@@ -6,5 +6,9 @@ import Instrument from './components/instrument/Instrument.js';
 import App from './components/App.js';
 
 export default (
-  <Route path="/"
-)
+  <Route path="/" component={App}>
+    <IndexRoute component={Home}></IndexRoute>
+    <Route path="/about" component={About}</Route>
+    <Route path="/instruments" component={Instrument}</Route>
+  </Route>
+);
