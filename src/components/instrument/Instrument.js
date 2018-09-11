@@ -27,10 +27,18 @@ class Instrument extends React.Component{
         </ul>
         <div>
           <h3>Instrument Form</h3>
+
           <form onSubmit={e => {
             e.preventDefault();
-            var input = {name: nameInput.value, description: descriptionInput.value, price: priceInput.value, quantity: quantityInput.value, image: imageInput.value}
-          }}
+            var input = {name: nameInput.value, description: descriptionInput.value, price: priceInput.value, quantity: quantityInput.value, image: imageInput.value};
+
+            this.submitInstrument(input);
+
+            e.target.reset();
+          }}>
+          <input type="text" name="name" ref={node => nameInput = node}/>
+            <input type="submit" />
+          </form>
         </div>
       </div>
     )
