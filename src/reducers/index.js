@@ -1,3 +1,8 @@
 // Set up your root reducer here...
  import { combineReducers } from 'redux';
- export default combineReducers;
+ import instruments from './instrumentReducers.js';
+
+
+ export default combineReducers({
+   instruments: instruments
+ });
