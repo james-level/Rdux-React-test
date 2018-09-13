@@ -1,4 +1,6 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import * as bookActions from '../../actions/instrumentActions'
 
 class Instrument extends React.Component{
   constructor(props){
@@ -6,7 +8,7 @@ class Instrument extends React.Component{
   }
 
   submitInstrument(input){
-    alert('Submitted.')
+    this.props.createInstrument(input);
   }
 
   render(){
@@ -45,4 +47,23 @@ class Instrument extends React.Component{
   }
 }
 
-export default Instrument;
+
+// Maps state from store to props
+
+const mapStateToProps = (state, ownProps) => {
+  return {
+    // We can now say this.props.instruments
+    instruments: state.instruments
+  }
+};
+
+// Maps actions to props
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+  // You can now say this.props.createBook
+    createInstrument: instrument => dispatch(instrumentActions.createInstrument(instrument))
+  }
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Instrument);
