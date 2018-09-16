@@ -14,7 +14,7 @@ class Instrument extends React.Component{
   }
 
   render(){
-    let titleInput;
+
     return(
       <div className="row">
         <div className="col-md-6">

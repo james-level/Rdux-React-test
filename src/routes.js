@@ -6,6 +6,7 @@ import InstrumentPage from './components/instrument/InstrumentPage'
 // import CartPage from './components/cart/CartPage';
 import InstrumentDetailsPage from './components/instrument/InstrumentDetailsPage'
 import App from './components/App.js';
+import BasketPage from './components/basket/BasketPage';
 
 export default (
   <Route path="/" component={App}>
@@ -13,5 +14,6 @@ export default (
     <Route path="/about" component={About}></Route>
     <Route path="/instruments" component={InstrumentPage}></Route>
     <Route path="/instruments/:id" component={InstrumentDetailsPage}></Route>
+    <Route path="/basket" component={BasketPage}></Route>
   </Route>
 );
