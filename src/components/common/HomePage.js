@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <h1>Reactive Keys</h1>
-      <p>Here you'll find an array of keyed instruments to meet all your ivory-tinkling needs.</p>
+      <p>Here you will find an array of keyed instruments to meet all your ivory-tinkling needs.</p>
     </div>
   )
 }
