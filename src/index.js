@@ -4,13 +4,19 @@ import { Provider } from 'react-redux';
 import { render } from 'react-dom';
 import { Router, browserHistory } from 'react-router';
 import routes from './routes';
+import * as instrumentActions from './actions/instrumentActions';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 import configureStore from './store/configureStore';
 
-const store = configureStore();
 
+
+
+const store = configureStore();
+store.dispatch(instrumentActions.fetchInstruments());
 render(
-  <Router routes={routes} history={browserHistory} />,
+  <Provider store={store}>
+    <Router routes={routes} history={browserHistory} />
+  </Provider>,
   document.getElementById('app')
 );
