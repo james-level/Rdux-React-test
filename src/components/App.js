@@ -5,9 +5,9 @@ import './app.scss';
 const App = (props) => {
   return (
       <div className="container">
-        <nav className="navbar navbar-default">
-          <div className="container-fluid">
-            <div className="navbar-header">
+        <nav className="navbar navbar-default" style={navbarStyle}>
+          <div className="container-fluid" style={navbarStyle}>
+            <div className="navbar-header" style={navbarStyle}>
               <a className="navbar-brand" href="#">Reactive Keys</a>
             </div>
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -25,5 +25,11 @@ const App = (props) => {
       </div>
     );
   };
+
+  const navbarStyle = {
+    backgroundColor: 'DeepSkyBlue',
+  color: 'black',
+};
+
 
 export default App;
