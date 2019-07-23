@@ -1,0 +1,178 @@
+{
+  "nav": {
+    "services": {
+      "initial": "S",
+      "menu": "Services",
+      "section": "Services"
+    },
+    "quality": {
+      "initial": "Q",
+      "menu": "Qualité",
+      "section": "Qualité"
+    },
+    "works": {
+      "initial": "C",
+      "menu": "Comment ça marche",
+      "section": "Comment ça marche"
+    },
+    "about": {
+      "initial": "A",
+      "menu": "À propos de moi",
+      "section": "À propos de moi"
+    },
+    "formation": {
+      "initial": "F",
+      "menu": "Formation",
+      "section": "Formation"
+    },
+    "contact": {
+      "initial": "C",
+      "menu": "Contact",
+      "section": "Contact"
+    }
+  },
+  "header": {
+    "carousel": {
+      "first": {
+        "title": "Traductions, Révision, Cours et Correction",
+        "subtitle": "Français, Allemand, Anglais"
+      },
+      "second": {
+        "title": "\"La clef d’une communication efficace\""
+      },
+      "third": {
+        "title": "Attention personnalisée",
+        "subtitle": "Principes de base: Engagement envers le client, sécurité, confidentialité, respect du délai"
+      }
+    }
+  },
+  "contact": {
+    "name": {
+      "label": "Nom et prénom",
+      "placeholder": "Nom et prénom"
+    },
+    "email": {
+      "label": "E-mail",
+      "placeholder": "E-mail"
+    },
+    "telephone": {
+      "label": "Téléphone",
+      "placeholder": "Téléphone (optionnel)"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Message"
+    },
+    "send": "Envoyer",
+    "error": {
+      "required": {
+        "name": "Introduire votre nom et prénom.",
+        "email": "Introduire votre adresse e-mail.",
+        "telephone": "Introduire votre numéro de téléphone.",
+        "message": "Introduire un message."
+      },
+      "email": "Adresse e-mail incorrecte."
+    }
+  },
+  "footer": {
+    "web": "Réseaux Sociaux",
+    "developer": "Développé par"
+  },
+  "services": {
+    "read": "En savoir plus",
+    "one": {
+      "title": "TRADUCTIONS DE DOCUMENTS",
+      "details": "Tout document doit être correctement traduit. Évitez les produits défectueux et garantissez une meilleure productivité",
+      "more": {
+        "one": "Courriers électroniques",
+        "two": "CV",
+        "three": "Lettres et correspondance",
+        "four": "Sites internet de contenu général"
+      }
+    },
+    "two": {
+      "title": "SPÉCIALISATIONS",
+      "details": "Afin d’utiliser les mots adéquats dans chaque contexte. Fini les erreurs de traduction technique",
+      "more": {
+        "one": "Traductions audiovisuelles",
+        "two": "Rapports financiers",
+        "three": "Comptes-rendu réunions",
+        "four": "Manuels et méthodologies",
+        "five": "Traductions techniques",
+        "six": "Sites internet de contenu technique",
+        "seven": "IT/Logiciels",
+        "eight": "Traductions techniques",
+        "nine": "Traductions littéraires",
+        "ten": "Secteur des transports et commerce extérieur",
+        "eleven": "Secteur touristique"
+      }
+    },
+    "three": {
+      "title": "RÉVISION ET CORRECTION",
+      "details": "Double contrôle",
+      "more": {
+        "one": "Le service de révision bilingüe vous permet de garantir la révision d’une traduction tout en comparant le texte original et le texte cible et corriger et améliorer le résultat final.",
+        "two": "D’un autre côté, le service de correction vous permet de corriger et d’améliorer des aspects tels que la grammaire, l’orthographe, et l’orthotypographie jusqu’à peaufiner le texte de façon qu’il atteigne les normes de qualité exigées par les clients de votre entreprise, établissements d’enseignement supérieur ou bien les organisations internationales."
+      }
+    },
+    "four": {
+      "title": "COURS PARTICULIERS",
+      "details": "Baignez-vous dans une nouvelle culture en apprenant une nouvelle langue.",
+      "more": {
+        "one": "Ayant effectué des cours particuliers et enseigné l'anglais comme langue étrangère, je suis en mesure de fournir des leçons d'anglais ou d'allemand sur mesure."
+      }
+    }
+  },
+  "quality": {
+    "section": {
+      "one": {
+        "title": "CRITÈRES ESSSENTIELS POUR GARANTIR UN SERVICE DE QUALITÉ",
+        "one": "Le choix correct dans la langue cible des aspects fondamentaux comme la terminologie, le vocabulaire, les expressions, le langage technique et spécifique de chaque secteur.",
+        "two": "L’utilisation correcte dans la langue cible de la grammaire, de l’orthographe, de la ponctuation et de la syntaxe, ainsi que la transcription adéquate des dates, noms, données, etc.",
+        "three": "L’adaptation du style et formes du langage en fonction de chaque texte.",
+        "four": "Précision et rapidité en ce qui concerne les réponses apportées aux consultations formulées par les clients.",
+        "five": "Respect des délais et exigences d’envoi."
+      },
+      "two": {
+        "title": "LA CONFIDENTIALITÉ DE VOS DOCUMENTS",
+        "one": "Conformément à l’Organisation Internationale de Normalisation (ISO) la nature du travail effectué et quelconque information transmises par le client à SENSE TRANSLATION seront traitées avec la plus grande confidentialité.",
+        "two": "Ces garanties ne sont pas applicables dans le cas où SENSE TRANSLATION serait obligée par la loi à communiquer ces informations."
+      }
+    }
+  },
+  "works": {
+    "title": "PROCÉDURE DE TRADUCTION / RÉVISION / CORRECTION",
+    "security": {
+      "title": "Sécurité de vos données",
+      "text": "Sous demande, je peux configurer un serveur FTP protégé avec un mot de passe pour envoyer et recevoir vos documents. J’effectue des copies de sécurité de toutes mes traductions et je conserve des copies protégées avec des mots de passe jusqu’au moment de l’envoi des documents. Tous les documents sont traités de façon confidentielle."
+    },
+    "one": "Contactez-moi à travers le formulaire, par e-mail ou si vous préférez, par téléphone et donnez-moi les premiers détails sur votre projet, tels que le délai, le format du document, quel service souhaitez-vous, etc.",
+    "two": "Suite à notre premier contact, envoyez-moi les documents que vous souhaitez traduire. Les traductions sous format spécial qui ralentissent ou qui rendent difficile la traduction, engendrent un supplément indiqué préalablement sur le devis (par exemple: format HTML, fichiers graphiques, papier, etc)",
+    "three": "J’analyserai les textes et établirai un devis tenant compte des détails spécifiques donnés précédemment.",
+    "four": "Je vous adresserai un devis gratuit et sans engagement vous indiquant une date limite. Vous pourrez accepter ou refuser celui-ci.",
+    "five": "Pour une réponse positive et après confirmation des deux parties, nous conclurons un contrat avec les principaux points du service solicité. Je vous indiquerais les modalités de paiements et le montant de l’acompte payable à la commande.",
+    "six": "Lorsque le contrat aura été validé je procéderai à la traduction de vos documents en respectant les délais.",
+    "seven": "Je vous enverrai une facture détaillée indiquant la date d’échéance."
+  },
+  "about": {
+    "first": "Je m’appelle James Henderson. Je suis titulaire d’une maîtrise en génie et suis traducteur professionnel indépendant depuis plus de deux ans. Féru de tout ce qui touche à la linguistique, j’ai la chance de maîtriser deux langues vivantes, le français et l'allemand, et en tant que tel, je crois au pouvoir du langage et la façon dont celui-ci détermine la perspective du monde qui nous entoure.",
+    "second": "Ayant traduit à travers mon activité professionnelle des documents dans des domaines diversifiés, je peux vous aider à communiquer avec vos associés, clients ou fournisseurs de langue française et allemande. Je trouverai les mots justes et précis."
+  },
+  "formation": {
+    "section": {
+      "one": {
+        "title": "ADHÉSION",
+        "text": "Depuis l’année 2018 je suis membre associé de l'Institut des Linguistes de Londres."
+      },
+      "two": {
+        "title": "FORMATION",
+        "subtitle": "La formation joue un rôle important dans la vie d'un traducteur.",
+        "one": "Maîtrise - Université d'York",
+        "two": "Diplôme de Traduction - Institut des Linguistes de Londres",
+        "three": "Großes Deutsches Sprachdiplom - Niveau C2 du Cadre européen (81%)",
+        "four": "Diplôme approfondi de langue française - Niveau C2 (93%)",
+        "five": "Maîtrise en génie (mention bien)"
+      }
+    }
+  }
+}
